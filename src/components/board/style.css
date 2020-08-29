@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300;400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  background: rgb(70, 64, 64);
+}
+.score {
+  padding: 20px 36%;
+  font-family: "Londrina Solid", cursive;
+  color: rgba(255 187 187 / 50%);
+  font-size: 50px;
+  text-align: center;
+}
+.board {
+  display: flex;
+  width: 48%;
+  height: auto;
+  margin: 0 27%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.tile {
+  width: 23%;
+  height: auto;
+  margin: 5px;
+  box-shadow: 0 0 10px rgba(197, 48, 48, 0.5);
+}
+.tile img {
+  width: 100%;
+  height: auto;
+}
